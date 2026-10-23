@@ -1,0 +1,76 @@
+/* PENGATURAN DASAR */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0b1220;
+    color: white;
+}
+
+/* HEADER */
+header {
+    background-color: #111c30;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    color: #00e5ff;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #cccccc;
+    margin-top: 5px;
+}
+
+/* MENU NAVIGASI */
+nav {
+    background-color: #17263d;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    color: #00e5ff;
+}
+
+/* ISI HALAMAN */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    min-height: 250px;
+}
+
+main h2 {
+    color: #00e5ff;
+}
+
+main p {
+    line-height: 1.8;
+    color: #cccccc;
+}
+
+main a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #00e5ff;
+    color: #0b1220;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #111c30;
+    text-align: center;
+    padding: 20px;
+    color: #cccccc;
+}
